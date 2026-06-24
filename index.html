@@ -398,8 +398,8 @@
         <div class="highlight-card">
           <div class="highlight-icon">📊</div>
           <div>
-            <h4>5 projets Data / ML</h4>
-            <p>Immobilier, marketing, hackathon, trafic temps réel</p>
+            <h4>6 projets Data / ML / Web</h4>
+            <p>Immobilier, marketing, ML, trafic temps réel, web</p>
           </div>
         </div>
         <div class="highlight-card">
@@ -492,25 +492,13 @@
           <span class="tag">Pandas</span>
         </div>
 
-        <div style="margin-top:0.75rem;display:flex;flex-direction:column;gap:0.6rem;">
-          <div style="font-size:0.72rem;color:var(--accent2);font-weight:600;">📈 Licences & Terrains — Tennis vs Padel (France)</div>
+        <div style="margin-top:0.75rem;display:grid;grid-template-columns:1fr 1fr;gap:0.5rem;">
           <img src="https://raw.githubusercontent.com/Kycks912004/projet-padel-tennis/main/graphs/graph1_licences_terrains.png"
-               alt="Évolution licences et terrains" style="width:100%;border-radius:8px;border:1px solid var(--border);" loading="lazy"/>
-          <div style="font-size:0.72rem;color:var(--accent2);font-weight:600;margin-top:0.3rem;">🚀 Progression des pratiquants Padel</div>
-          <img src="https://raw.githubusercontent.com/Kycks912004/projet-padel-tennis/main/graphs/graph2_padel_progression.png"
-               alt="Progression Padel" style="width:100%;border-radius:8px;border:1px solid var(--border);" loading="lazy"/>
-          <div style="font-size:0.72rem;color:var(--accent2);font-weight:600;margin-top:0.3rem;">🏙️ Prix au m² par département — Île-de-France (DVF 2024)</div>
-          <img src="https://raw.githubusercontent.com/Kycks912004/projet-padel-tennis/main/graphs/graph4_dvf_dep.png"
-               alt="Prix DVF IDF" style="width:100%;border-radius:8px;border:1px solid var(--border);" loading="lazy"/>
-          <div style="font-size:0.72rem;color:var(--accent2);font-weight:600;margin-top:0.3rem;">🗺️ Carte — Terrains Padel & Tennis en Île-de-France</div>
+               alt="Licences Tennis vs Padel" style="width:100%;border-radius:8px;border:1px solid var(--border);grid-column:1/-1;" loading="lazy"/>
           <img src="https://raw.githubusercontent.com/Kycks912004/projet-padel-tennis/main/graphs/map1_idf_points.png"
                alt="Carte IDF" style="width:100%;border-radius:8px;border:1px solid var(--border);" loading="lazy"/>
-          <div style="font-size:0.72rem;color:var(--accent2);font-weight:600;margin-top:0.3rem;">🗺️ Carte — Prix au m² par commune IDF (DVF 2024)</div>
-          <img src="https://raw.githubusercontent.com/Kycks912004/projet-padel-tennis/main/graphs/map3_dvf_communes.png"
-               alt="Carte DVF communes" style="width:100%;border-radius:8px;border:1px solid var(--border);" loading="lazy"/>
-          <div style="font-size:0.72rem;color:var(--accent2);font-weight:600;margin-top:0.3rem;">🗺️ Carte — Terrains Padel & Tennis — France métropolitaine</div>
-          <img src="https://raw.githubusercontent.com/Kycks912004/projet-padel-tennis/main/graphs/map2_france.png"
-               alt="Carte France" style="width:100%;border-radius:8px;border:1px solid var(--border);" loading="lazy"/>
+          <img src="https://raw.githubusercontent.com/Kycks912004/projet-padel-tennis/main/graphs/graph4_dvf_dep.png"
+               alt="Prix DVF IDF" style="width:100%;border-radius:8px;border:1px solid var(--border);" loading="lazy"/>
         </div>
 
         <div style="display:flex;gap:0.75rem;flex-wrap:wrap;margin-top:0.75rem;">
@@ -524,15 +512,20 @@
       <div class="project-card fade-up">
         <div class="project-emoji">📊</div>
         <h3>Marketing Analytics — RFM & CLV</h3>
-        <p>Application d'aide à la décision marketing : segmentation clients par méthode RFM (Récence, Fréquence, Montant), calcul de la Customer Lifetime Value, interface pour l'export de listes clients actionnables.</p>
+        <p>Dashboard d'aide à la décision marketing sur 1M+ transactions e-commerce UK : segmentation clients RFM en 7 segments (Champions, Loyaux, À risque…), Customer Lifetime Value par 3 méthodes, simulateur de scénarios, export CRM.</p>
         <div class="project-tags">
           <span class="tag">Python</span>
           <span class="tag">Pandas</span>
-          <span class="tag">Jupyter</span>
+          <span class="tag">Plotly</span>
           <span class="tag">RFM</span>
+          <span class="tag">CLV</span>
         </div>
-        <div style="display:flex;gap:0.75rem;flex-wrap:wrap;">
-          <a href="https://github.com/Kycks912004/cohortes-rfm-clv/blob/main/cohortes-rfm-clv-main/notebooks/Notebook.ipynb" target="_blank" class="project-link">📓 Voir le notebook →</a>
+        <div style="margin-top:0.6rem;background:rgba(99,102,241,0.07);border:1px solid var(--border);border-radius:8px;padding:0.6rem 0.75rem;font-size:0.75rem;">
+          <span style="color:var(--accent2);font-weight:600;">📋 7 pages interactives</span>
+          <span style="color:var(--muted);margin-left:0.5rem;">KPIs · Cohortes · Segments RFM · CLV · Scénarios · Export · Qualité</span>
+        </div>
+        <div style="display:flex;gap:0.75rem;flex-wrap:wrap;margin-top:0.6rem;">
+          <a href="https://github.com/Kycks912004/cohortes-rfm-clv/blob/main/cohortes-rfm-clv-main/notebooks/Notebook.ipynb" target="_blank" class="project-link">📓 Notebook →</a>
           <a href="https://github.com/Kycks912004/cohortes-rfm-clv" target="_blank" class="project-link" style="color:var(--muted)">Code →</a>
         </div>
       </div>
@@ -556,31 +549,39 @@
 
       <div class="project-card fade-up">
         <div class="project-emoji">🚦</div>
-        <h3>Traffic Management Kafka</h3>
-        <p>Système de gestion du trafic en temps réel avec streaming de données via Apache Kafka. Architecture event-driven pour traitement et routage des flux de trafic.</p>
+        <h3>Traffic Management — Apache Kafka</h3>
+        <p>Système de streaming d'événements trafic en temps réel via Apache Kafka & Docker. Producer Python génère des événements (accidents, radars, embouteillages) — consumer les consomme et affiche offset + partition.</p>
         <div class="project-tags">
           <span class="tag">Python</span>
           <span class="tag neutral">Apache Kafka</span>
+          <span class="tag neutral">Docker</span>
           <span class="tag neutral">Streaming</span>
         </div>
-        <div style="display:flex;gap:0.75rem;flex-wrap:wrap;">
+        <div style="margin-top:0.6rem;background:rgba(22,27,34,0.9);border:1px solid var(--border);border-radius:8px;padding:0.5rem 0.75rem;font-family:'Fira Code',monospace;font-size:0.7rem;color:#34d399;">
+          <div style="color:var(--muted);font-size:0.65rem;margin-bottom:0.3rem;">$ docker compose ps</div>
+          <div>kafka &nbsp; confluentinc/cp-kafka &nbsp; <span style="color:#34d399;">Up</span> &nbsp; 0.0.0.0:9092</div>
+          <div style="color:var(--muted);font-size:0.65rem;margin:0.3rem 0;">Topic: traffic.events &nbsp;|&nbsp; Partitions: 1 &nbsp;|&nbsp; RF: 1</div>
+        </div>
+        <div style="display:flex;gap:0.75rem;flex-wrap:wrap;margin-top:0.6rem;">
           <a href="https://github.com/Kycks912004/my-traffic-management-kafka/blob/main/traffic-kafka-bigdata-main/src/producer.py" target="_blank" class="project-link">🐍 producer.py →</a>
           <a href="https://github.com/Kycks912004/my-traffic-management-kafka/blob/main/traffic-kafka-bigdata-main/src/consumer.py" target="_blank" class="project-link" style="color:var(--muted)">consumer.py →</a>
-          <a href="https://github.com/Kycks912004/my-traffic-management-kafka" target="_blank" class="project-link" style="color:var(--muted)">Code →</a>
+          <a href="https://github.com/Kycks912004/my-traffic-management-kafka" target="_blank" class="project-link" style="color:var(--muted)">Repo →</a>
         </div>
       </div>
 
       <div class="project-card fade-up">
         <div class="project-emoji">☕</div>
-        <h3>Projet Java OOP — ING3</h3>
-        <p>Application développée en ING3 appliquant les principes de la programmation orientée objet avec Java : encapsulation, héritage, polymorphisme, design patterns MVC.</p>
+        <h3>Booking App — Java OOP</h3>
+        <p>Application de réservation d'hébergements en Java avec interface graphique Swing, architecture MVC, base de données MySQL via JDBC, statistiques JFreeChart, gestion promotions & avis.</p>
         <div class="project-tags">
           <span class="tag neutral">Java</span>
-          <span class="tag neutral">POO</span>
+          <span class="tag neutral">Swing GUI</span>
+          <span class="tag neutral">MySQL</span>
           <span class="tag neutral">MVC</span>
+          <span class="tag neutral">JDBC</span>
         </div>
-        <div style="display:flex;gap:0.75rem;flex-wrap:wrap;">
-          <a href="https://github.com/Kycks912004/projet-java-ing3/tree/main/projet-java-ing3-2025-ing3-java-2025-11-2-main/src" target="_blank" class="project-link">☕ Voir le code source →</a>
+        <div style="display:flex;gap:0.75rem;flex-wrap:wrap;margin-top:0.5rem;">
+          <a href="https://github.com/Kycks912004/projet-java-ing3/tree/main/projet-java-ing3-2025-ing3-java-2025-11-2-main/src" target="_blank" class="project-link">☕ Code source →</a>
           <a href="https://github.com/Kycks912004/projet-java-ing3" target="_blank" class="project-link" style="color:var(--muted)">Repo →</a>
         </div>
       </div>
@@ -656,6 +657,9 @@
         <a href="https://github.com/Kycks912004" target="_blank" class="contact-link">
           🐙 GitHub
         </a>
+        <a href="https://www.linkedin.com/in/kylian-pinto" target="_blank" class="contact-link">
+          💼 LinkedIn
+        </a>
       </div>
     </div>
   </div>
@@ -663,7 +667,7 @@
 
 <!-- FOOTER -->
 <footer>
-  <p>Conçu & développé par <span>Kylian Pinto</span> · 2025</p>
+  <p>Conçu & développé par <span>Kylian Pinto</span> · 2026</p>
 </footer>
 
 <script>
