@@ -5,6 +5,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Kylian Pinto — Data & AI Engineer</title>
   <meta name="description" content="Portfolio de Kylian Pinto, étudiant M1 Ingénierie Data & IA à ECE Paris." />
+
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+
+  <!-- Open Graph / réseaux sociaux -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://kycks912004.github.io/" />
+  <meta property="og:title" content="Kylian Pinto — Data & AI Engineer" />
+  <meta property="og:description" content="Portfolio de Kylian Pinto, étudiant M1 Ingénierie Data & IA à ECE Paris. Data Science, Machine Learning, projets end-to-end." />
+  <meta property="og:image" content="https://kycks912004.github.io/assets/og-image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:locale" content="fr_FR" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Kylian Pinto — Data & AI Engineer" />
+  <meta name="twitter:description" content="Portfolio de Kylian Pinto, étudiant M1 Ingénierie Data & IA à ECE Paris." />
+  <meta name="twitter:image" content="https://kycks912004.github.io/assets/og-image.png" />
+
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet" />
   <script type="importmap">
@@ -201,7 +220,15 @@
           <span style="color:var(--accent2);font-weight:600;">📋 7 pages interactives</span>
           <span style="color:var(--muted);margin-left:0.5rem;">KPIs · Cohortes · Segments RFM · CLV · Scénarios · Export · Qualité</span>
         </div>
-        <div style="display:flex;gap:0.75rem;flex-wrap:wrap;margin-top:0.6rem;">
+
+        <div style="margin-top:0.75rem;display:grid;grid-template-columns:1fr 1fr;gap:0.5rem;">
+          <img src="assets/rfm-kpi-overview.png"
+               alt="Dashboard KPIs — 5407 clients, 715k transactions" style="width:100%;border-radius:8px;border:1px solid var(--border);" loading="lazy"/>
+          <img src="assets/rfm-segments.png"
+               alt="Segmentation RFM — 7 segments clients" style="width:100%;border-radius:8px;border:1px solid var(--border);" loading="lazy"/>
+        </div>
+
+        <div style="display:flex;gap:0.75rem;flex-wrap:wrap;margin-top:0.75rem;">
           <a href="https://github.com/Kycks912004/cohortes-rfm-clv/blob/main/cohortes-rfm-clv-main/notebooks/Notebook.ipynb" target="_blank" class="project-link">📓 Notebook →</a>
           <a href="https://github.com/Kycks912004/cohortes-rfm-clv" target="_blank" class="project-link" style="color:var(--muted)">Code →</a>
         </div>
@@ -217,7 +244,15 @@
           <span class="tag">Feature Engineering</span>
           <span class="tag">Classification</span>
         </div>
-        <div style="display:flex;gap:0.75rem;flex-wrap:wrap;">
+
+        <div style="margin-top:0.6rem;display:grid;grid-template-columns:1fr 1fr;gap:0.5rem;">
+          <img src="assets/titanic-feature-importance.png"
+               alt="Importance des variables — modèle CatBoost" style="width:100%;border-radius:8px;border:1px solid var(--border);" loading="lazy"/>
+          <img src="assets/titanic-confusion-matrix.png"
+               alt="Matrice de confusion — validation du modèle" style="width:100%;border-radius:8px;border:1px solid var(--border);" loading="lazy"/>
+        </div>
+
+        <div style="display:flex;gap:0.75rem;flex-wrap:wrap;margin-top:0.6rem;">
           <a href="https://github.com/Kycks912004/titanic-survival-catboost/blob/main/solution.py" target="_blank" class="project-link">🐍 solution.py →</a>
           <a href="https://github.com/Kycks912004/titanic-survival-catboost/blob/main/soumission_finale.csv" target="_blank" class="project-link" style="color:var(--muted)">📋 Résultats →</a>
           <a href="https://github.com/Kycks912004/titanic-survival-catboost" target="_blank" class="project-link" style="color:var(--muted)">Repo →</a>
@@ -234,10 +269,12 @@
           <span class="tag neutral">Docker</span>
           <span class="tag neutral">Streaming</span>
         </div>
-        <div style="margin-top:0.6rem;background:rgba(22,27,34,0.9);border:1px solid var(--border);border-radius:8px;padding:0.5rem 0.75rem;font-family:'Fira Code',monospace;font-size:0.7rem;color:#34d399;">
-          <div style="color:var(--muted);font-size:0.65rem;margin-bottom:0.3rem;">$ docker compose ps</div>
-          <div>kafka &nbsp; confluentinc/cp-kafka &nbsp; <span style="color:#34d399;">Up</span> &nbsp; 0.0.0.0:9092</div>
-          <div style="color:var(--muted);font-size:0.65rem;margin:0.3rem 0;">Topic: traffic.events &nbsp;|&nbsp; Partitions: 1 &nbsp;|&nbsp; RF: 1</div>
+        <div style="margin-top:0.6rem;background:rgba(22,27,34,0.9);border:1px solid var(--border);border-radius:8px;padding:0.5rem 0.75rem;font-family:'Fira Code',monospace;font-size:0.68rem;color:#34d399;">
+          <div style="color:var(--muted);font-size:0.65rem;margin-bottom:0.3rem;">$ python consumer.py — extrait réel du log</div>
+          <div>[RECEIVED] SPEED_CAMERA · Lille · A6</div>
+          <div>[RECEIVED] ACCIDENT · Lyon · MINOR</div>
+          <div>[RECEIVED] TRAFFIC_JAM · Lyon · 6 km/h</div>
+          <div style="color:var(--muted);font-size:0.65rem;margin-top:0.3rem;">Topic: traffic.events &nbsp;|&nbsp; Partitions: 1 &nbsp;|&nbsp; RF: 1</div>
         </div>
         <div style="display:flex;gap:0.75rem;flex-wrap:wrap;margin-top:0.6rem;">
           <a href="https://github.com/Kycks912004/my-traffic-management-kafka/blob/main/traffic-kafka-bigdata-main/src/producer.py" target="_blank" class="project-link">🐍 producer.py →</a>
@@ -262,6 +299,10 @@
           <div style="color:#34d399;">✓ SQLite database initialized — booking.db created</div>
           <div style="color:#34d399;">✓ Sample data loaded (12 hébergements, 7 users)</div>
         </div>
+        <a href="https://raw.githubusercontent.com/Kycks912004/projet-java-ing3/main/projet-java-ing3-2025-ing3-java-2025-11-2-main/docs/diagramme_classe_complet.png" target="_blank">
+          <img src="https://raw.githubusercontent.com/Kycks912004/projet-java-ing3/main/projet-java-ing3-2025-ing3-java-2025-11-2-main/docs/diagramme_classe_complet.png"
+               alt="Diagramme de classes UML — architecture MVC" style="width:100%;border-radius:8px;border:1px solid var(--border);background:#fff;" loading="lazy"/>
+        </a>
         <div style="display:flex;gap:0.75rem;flex-wrap:wrap;margin-top:0.6rem;">
           <a href="https://github.com/Kycks912004/projet-java-ing3/releases/latest" target="_blank" class="project-link" style="background:linear-gradient(135deg,#f59e0b,#d97706);color:white;font-weight:700;">⬇️ Télécharger JAR →</a>
           <a href="https://github.com/Kycks912004/projet-java-ing3/tree/main/projet-java-ing3-2025-ing3-java-2025-11-2-main/src" target="_blank" class="project-link">☕ Code source →</a>
