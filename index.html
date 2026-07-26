@@ -13,7 +13,7 @@
   <meta property="og:url" content="https://kycks912004.github.io/" />
   <meta property="og:title" content="Kylian Pinto — Data & AI Engineer" />
   <meta property="og:description" content="Portfolio de Kylian Pinto, étudiant M1 Ingénierie Data & IA à ECE Paris. Data Science, Machine Learning, projets end-to-end." />
-  <meta property="og:image" content="https://kycks912004.github.io/assets/og-image.png" />
+  <meta property="og:image" content="https://kycks912004.github.io/assets/og-image.jpg" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
   <meta property="og:locale" content="fr_FR" />
@@ -22,19 +22,22 @@
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Kylian Pinto — Data & AI Engineer" />
   <meta name="twitter:description" content="Portfolio de Kylian Pinto, étudiant M1 Ingénierie Data & IA à ECE Paris." />
-  <meta name="twitter:image" content="https://kycks912004.github.io/assets/og-image.png" />
+  <meta name="twitter:image" content="https://kycks912004.github.io/assets/og-image.jpg" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
   <script type="importmap">
-  { "imports": { "three": "https://cdn.jsdelivr.net/npm/three@0.160.1/build/three.module.js" } }
+  { "imports": { "three": "https://cdn.jsdelivr.net/npm/three@0.160.1/build/three.module.min.js" } }
   </script>
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
 
+<a href="#main-content" class="skip-link">Aller au contenu principal</a>
+
 <!-- NAV -->
-<nav>
+<nav aria-label="Navigation principale">
   <div class="nav-logo">&lt;kylian.pinto /&gt;</div>
   <ul class="nav-links">
     <li><a href="#about">À propos</a></li>
@@ -45,6 +48,7 @@
   </ul>
 </nav>
 
+<main id="main-content">
 <!-- HERO -->
 <section id="hero">
   <div class="hero-bg"></div>
@@ -80,28 +84,28 @@
         <div class="highlight-card">
           <div class="highlight-icon">🎓</div>
           <div>
-            <h4>ECE Paris — M1 Data & IA</h4>
+            <h3>ECE Paris — M1 Data & IA</h3>
             <p>Ingénierie data, machine learning, systèmes embarqués</p>
           </div>
         </div>
         <div class="highlight-card">
           <div class="highlight-icon">🇰🇷</div>
           <div>
-            <h4>Hanyang University, Séoul</h4>
+            <h3>Hanyang University, Séoul</h3>
             <p>Échange académique Computer Science (2024–2025)</p>
           </div>
         </div>
         <div class="highlight-card">
           <div class="highlight-icon">📊</div>
           <div>
-            <h4>6 projets Data / ML / Web</h4>
+            <h3>6 projets Data / ML / Web</h3>
             <p>Immobilier, marketing, ML, trafic temps réel, web</p>
           </div>
         </div>
         <div class="highlight-card">
           <div class="highlight-icon">🌍</div>
           <div>
-            <h4>Ouvert à la collaboration</h4>
+            <h3>Ouvert à la collaboration</h3>
             <p>Stage, alternance, projet open source en Data & IA</p>
           </div>
         </div>
@@ -189,19 +193,19 @@
         </div>
 
         <div style="margin-top:0.75rem;display:grid;grid-template-columns:1fr 1fr;gap:0.5rem;">
-          <img src="https://raw.githubusercontent.com/Kycks912004/projet-padel-tennis/main/graphs/graph1_licences_terrains.png"
-               alt="Licences Tennis vs Padel" style="width:100%;border-radius:8px;border:1px solid var(--border);grid-column:1/-1;" loading="lazy"/>
-          <img src="https://raw.githubusercontent.com/Kycks912004/projet-padel-tennis/main/graphs/map1_idf_points.png"
-               alt="Carte IDF" style="width:100%;border-radius:8px;border:1px solid var(--border);" loading="lazy"/>
-          <img src="https://raw.githubusercontent.com/Kycks912004/projet-padel-tennis/main/graphs/graph4_dvf_dep.png"
-               alt="Prix DVF IDF" style="width:100%;border-radius:8px;border:1px solid var(--border);" loading="lazy"/>
+          <img src="assets/padel-licences.webp"
+               width="900" height="362" alt="Licences Tennis vs Padel" style="width:100%;height:auto;border-radius:8px;border:1px solid var(--border);grid-column:1/-1;" loading="lazy"/>
+          <img src="assets/padel-map.webp"
+               width="500" height="450" alt="Carte IDF" style="width:100%;height:auto;border-radius:8px;border:1px solid var(--border);" loading="lazy"/>
+          <img src="assets/padel-dvf.webp"
+               width="500" height="272" alt="Prix DVF IDF" style="width:100%;height:auto;border-radius:8px;border:1px solid var(--border);" loading="lazy"/>
         </div>
 
         <div style="display:flex;gap:0.75rem;flex-wrap:wrap;margin-top:0.75rem;">
-          <a href="https://projet-padel-tennis-p7a7yzywhziwgkxv2st3dk.streamlit.app/" target="_blank" class="project-link" style="background:linear-gradient(135deg,#6366f1,#a78bfa);color:white;font-weight:700;">🚀 App interactive →</a>
-          <a href="https://github.com/Kycks912004/projet-padel-tennis/blob/main/projet-padel-tennis-main/app_projet.py" target="_blank" class="project-link">🐍 app_projet.py →</a>
-          <a href="https://github.com/Kycks912004/projet-padel-tennis/tree/main/projet-padel-tennis-main/data" target="_blank" class="project-link" style="color:var(--muted)">📂 Données →</a>
-          <a href="https://github.com/Kycks912004/projet-padel-tennis" target="_blank" class="project-link" style="color:var(--muted)">Repo →</a>
+          <a href="https://projet-padel-tennis-p7a7yzywhziwgkxv2st3dk.streamlit.app/" target="_blank" rel="noopener noreferrer" class="project-link" style="background:linear-gradient(135deg,#433fb0,#6d4fd0);color:white;font-weight:700;">🚀 App interactive →</a>
+          <a href="https://github.com/Kycks912004/projet-padel-tennis/blob/main/projet-padel-tennis-main/app_projet.py" target="_blank" rel="noopener noreferrer" class="project-link">🐍 app_projet.py →</a>
+          <a href="https://github.com/Kycks912004/projet-padel-tennis/tree/main/projet-padel-tennis-main/data" target="_blank" rel="noopener noreferrer" class="project-link" style="color:var(--muted)">📂 Données →</a>
+          <a href="https://github.com/Kycks912004/projet-padel-tennis" target="_blank" rel="noopener noreferrer" class="project-link" style="color:var(--muted)">Repo →</a>
         </div>
       </div>
 
@@ -222,15 +226,15 @@
         </div>
 
         <div style="margin-top:0.75rem;display:grid;grid-template-columns:1fr 1fr;gap:0.5rem;">
-          <img src="assets/rfm-kpi-overview.png"
-               alt="Dashboard KPIs — 5407 clients, 715k transactions" style="width:100%;border-radius:8px;border:1px solid var(--border);" loading="lazy"/>
-          <img src="assets/rfm-segments.png"
-               alt="Segmentation RFM — 7 segments clients" style="width:100%;border-radius:8px;border:1px solid var(--border);" loading="lazy"/>
+          <img src="assets/rfm-kpi-overview.webp" width="760" height="667"
+               alt="Dashboard KPIs — 5407 clients, 715k transactions" style="width:100%;height:auto;border-radius:8px;border:1px solid var(--border);" loading="lazy"/>
+          <img src="assets/rfm-segments.webp" width="760" height="667"
+               alt="Segmentation RFM — 7 segments clients" style="width:100%;height:auto;border-radius:8px;border:1px solid var(--border);" loading="lazy"/>
         </div>
 
         <div style="display:flex;gap:0.75rem;flex-wrap:wrap;margin-top:0.75rem;">
-          <a href="https://github.com/Kycks912004/cohortes-rfm-clv/blob/main/cohortes-rfm-clv-main/notebooks/Notebook.ipynb" target="_blank" class="project-link">📓 Notebook →</a>
-          <a href="https://github.com/Kycks912004/cohortes-rfm-clv" target="_blank" class="project-link" style="color:var(--muted)">Code →</a>
+          <a href="https://github.com/Kycks912004/cohortes-rfm-clv/blob/main/cohortes-rfm-clv-main/notebooks/Notebook.ipynb" target="_blank" rel="noopener noreferrer" class="project-link">📓 Notebook →</a>
+          <a href="https://github.com/Kycks912004/cohortes-rfm-clv" target="_blank" rel="noopener noreferrer" class="project-link" style="color:var(--muted)">Code →</a>
         </div>
       </div>
 
@@ -246,16 +250,16 @@
         </div>
 
         <div style="margin-top:0.6rem;display:grid;grid-template-columns:1fr 1fr;gap:0.5rem;">
-          <img src="assets/titanic-feature-importance.png"
-               alt="Importance des variables — modèle CatBoost" style="width:100%;border-radius:8px;border:1px solid var(--border);" loading="lazy"/>
-          <img src="assets/titanic-confusion-matrix.png"
-               alt="Matrice de confusion — validation du modèle" style="width:100%;border-radius:8px;border:1px solid var(--border);" loading="lazy"/>
+          <img src="assets/titanic-feature-importance.webp" width="700" height="500"
+               alt="Importance des variables — modèle CatBoost" style="width:100%;height:auto;border-radius:8px;border:1px solid var(--border);" loading="lazy"/>
+          <img src="assets/titanic-confusion-matrix.webp" width="600" height="540"
+               alt="Matrice de confusion — validation du modèle" style="width:100%;height:auto;border-radius:8px;border:1px solid var(--border);" loading="lazy"/>
         </div>
 
         <div style="display:flex;gap:0.75rem;flex-wrap:wrap;margin-top:0.6rem;">
-          <a href="https://github.com/Kycks912004/titanic-survival-catboost/blob/main/solution.py" target="_blank" class="project-link">🐍 solution.py →</a>
-          <a href="https://github.com/Kycks912004/titanic-survival-catboost/blob/main/soumission_finale.csv" target="_blank" class="project-link" style="color:var(--muted)">📋 Résultats →</a>
-          <a href="https://github.com/Kycks912004/titanic-survival-catboost" target="_blank" class="project-link" style="color:var(--muted)">Repo →</a>
+          <a href="https://github.com/Kycks912004/titanic-survival-catboost/blob/main/solution.py" target="_blank" rel="noopener noreferrer" class="project-link">🐍 solution.py →</a>
+          <a href="https://github.com/Kycks912004/titanic-survival-catboost/blob/main/soumission_finale.csv" target="_blank" rel="noopener noreferrer" class="project-link" style="color:var(--muted)">📋 Résultats →</a>
+          <a href="https://github.com/Kycks912004/titanic-survival-catboost" target="_blank" rel="noopener noreferrer" class="project-link" style="color:var(--muted)">Repo →</a>
         </div>
       </div>
 
@@ -277,9 +281,9 @@
           <div style="color:var(--muted);font-size:0.65rem;margin-top:0.3rem;">Topic: traffic.events &nbsp;|&nbsp; Partitions: 1 &nbsp;|&nbsp; RF: 1</div>
         </div>
         <div style="display:flex;gap:0.75rem;flex-wrap:wrap;margin-top:0.6rem;">
-          <a href="https://github.com/Kycks912004/my-traffic-management-kafka/blob/main/traffic-kafka-bigdata-main/src/producer.py" target="_blank" class="project-link">🐍 producer.py →</a>
-          <a href="https://github.com/Kycks912004/my-traffic-management-kafka/blob/main/traffic-kafka-bigdata-main/src/consumer.py" target="_blank" class="project-link" style="color:var(--muted)">consumer.py →</a>
-          <a href="https://github.com/Kycks912004/my-traffic-management-kafka" target="_blank" class="project-link" style="color:var(--muted)">Repo →</a>
+          <a href="https://github.com/Kycks912004/my-traffic-management-kafka/blob/main/traffic-kafka-bigdata-main/src/producer.py" target="_blank" rel="noopener noreferrer" class="project-link">🐍 producer.py →</a>
+          <a href="https://github.com/Kycks912004/my-traffic-management-kafka/blob/main/traffic-kafka-bigdata-main/src/consumer.py" target="_blank" rel="noopener noreferrer" class="project-link" style="color:var(--muted)">consumer.py →</a>
+          <a href="https://github.com/Kycks912004/my-traffic-management-kafka" target="_blank" rel="noopener noreferrer" class="project-link" style="color:var(--muted)">Repo →</a>
         </div>
       </div>
 
@@ -299,14 +303,14 @@
           <div style="color:#34d399;">✓ SQLite database initialized — booking.db created</div>
           <div style="color:#34d399;">✓ Sample data loaded (12 hébergements, 7 users)</div>
         </div>
-        <a href="https://raw.githubusercontent.com/Kycks912004/projet-java-ing3/main/projet-java-ing3-2025-ing3-java-2025-11-2-main/docs/diagramme_classe_complet.png" target="_blank">
-          <img src="https://raw.githubusercontent.com/Kycks912004/projet-java-ing3/main/projet-java-ing3-2025-ing3-java-2025-11-2-main/docs/diagramme_classe_complet.png"
-               alt="Diagramme de classes UML — architecture MVC" style="width:100%;border-radius:8px;border:1px solid var(--border);background:#fff;" loading="lazy"/>
+        <a href="https://raw.githubusercontent.com/Kycks912004/projet-java-ing3/main/projet-java-ing3-2025-ing3-java-2025-11-2-main/docs/diagramme_classe_complet.png" target="_blank" rel="noopener noreferrer">
+          <img src="assets/java-diagram.webp"
+               width="1200" height="521" alt="Diagramme de classes UML — architecture MVC" style="width:100%;height:auto;border-radius:8px;border:1px solid var(--border);background:#fff;" loading="lazy"/>
         </a>
         <div style="display:flex;gap:0.75rem;flex-wrap:wrap;margin-top:0.6rem;">
-          <a href="https://github.com/Kycks912004/projet-java-ing3/releases/latest" target="_blank" class="project-link" style="background:linear-gradient(135deg,#f59e0b,#d97706);color:white;font-weight:700;">⬇️ Télécharger JAR →</a>
-          <a href="https://github.com/Kycks912004/projet-java-ing3/tree/main/projet-java-ing3-2025-ing3-java-2025-11-2-main/src" target="_blank" class="project-link">☕ Code source →</a>
-          <a href="https://github.com/Kycks912004/projet-java-ing3" target="_blank" class="project-link" style="color:var(--muted)">Repo →</a>
+          <a href="https://github.com/Kycks912004/projet-java-ing3/releases/latest" target="_blank" rel="noopener noreferrer" class="project-link" style="background:linear-gradient(135deg,#b45309,#92400e);color:white;font-weight:700;">⬇️ Télécharger JAR →</a>
+          <a href="https://github.com/Kycks912004/projet-java-ing3/tree/main/projet-java-ing3-2025-ing3-java-2025-11-2-main/src" target="_blank" rel="noopener noreferrer" class="project-link">☕ Code source →</a>
+          <a href="https://github.com/Kycks912004/projet-java-ing3" target="_blank" rel="noopener noreferrer" class="project-link" style="color:var(--muted)">Repo →</a>
         </div>
       </div>
 
@@ -320,8 +324,8 @@
           <span class="tag neutral">PHP</span>
         </div>
         <div style="display:flex;gap:0.75rem;flex-wrap:wrap;">
-          <a href="https://kycks912004.github.io/sportify-project/" target="_blank" class="project-link">🚀 Voir le site en ligne →</a>
-          <a href="https://github.com/Kycks912004/sportify-project" target="_blank" class="project-link" style="color:var(--muted)">Code →</a>
+          <a href="https://kycks912004.github.io/sportify-project/" target="_blank" rel="noopener noreferrer" class="project-link">🚀 Voir le site en ligne →</a>
+          <a href="https://github.com/Kycks912004/sportify-project" target="_blank" rel="noopener noreferrer" class="project-link" style="color:var(--muted)">Code →</a>
         </div>
       </div>
 
@@ -378,16 +382,17 @@
         <a href="mailto:kylian.pinto@orange.fr" class="contact-link">
           📧 kylian.pinto@orange.fr
         </a>
-        <a href="https://github.com/Kycks912004" target="_blank" class="contact-link">
+        <a href="https://github.com/Kycks912004" target="_blank" rel="noopener noreferrer" class="contact-link">
           🐙 GitHub
         </a>
-        <a href="https://www.linkedin.com/in/kylian-pinto" target="_blank" class="contact-link">
+        <a href="https://www.linkedin.com/in/kylian-pinto-ba0b9b292/" target="_blank" rel="noopener noreferrer" class="contact-link">
           💼 LinkedIn
         </a>
       </div>
     </div>
   </div>
 </section>
+</main>
 
 <!-- FOOTER -->
 <footer>
