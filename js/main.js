@@ -1,9 +1,10 @@
 // Typing animation
 const phrases = [
   "Data Science & Machine Learning",
-  "Python · Pandas · Scikit-learn",
+  "RAG · LLM · Bases vectorielles",
+  "Stage EDF — IA appliquée & Data Engineering",
   "ECE Paris · Hanyang University 🇰🇷",
-  "Ouvert à des collaborations en Data & IA ✨"
+  "Recherche stage de fin d'études — Janv./Fév. 2027 ✨"
 ];
 let pi = 0, ci = 0, deleting = false;
 const el = document.getElementById('typed-text');
