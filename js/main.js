@@ -2,9 +2,9 @@
 const phrases = [
   "Data Science & Machine Learning",
   "RAG · LLM · Bases vectorielles",
-  "Stage EDF — IA appliquée & Data Engineering",
+  "Stage EDF · IA appliquée & Data Engineering",
   "ECE Paris · Hanyang University 🇰🇷",
-  "Recherche stage de fin d'études — Janv./Fév. 2027 ✨"
+  "Recherche stage de fin d'études · Janv./Fév. 2027 ✨"
 ];
 let pi = 0, ci = 0, deleting = false;
 const el = document.getElementById('typed-text');
